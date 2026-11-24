@@ -1,0 +1,17 @@
+{
+  "name": "p2p-lending-platform",
+  "version": "1.0.0",
+  "description": "Peer-to-Peer Lending, Borrowing and Group Funding Platform",
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend:dev": "nodemon backend/src/server.js",
+    "backend:seed": "node backend/src/utils/seedData.js",
+    "backend:test": "node backend/tests/runTests.js",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "keywords": ["p2p", "lending", "borrowing", "group-funding", "fintech", "mern"],
+  "author": "P2P Lending Engineering Team",
+  "license": "ISC"
+}

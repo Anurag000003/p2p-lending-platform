@@ -124,3 +124,4 @@ p2p-lending-platform/
 | **Admin** | `admin@p2p.com` | `Admin@1234` | Full platform governance, KYC approvals, audit logs |
 | **Borrower** | `borrower@demo.com` | `Pass@1234` | Request loans, pay EMIs, track upcoming schedule |
 | **Lender** | `lender@demo.com` | `Pass@1234` | Fund loans partially or fully, monitor returns |
+<!-- Deployed version -->
